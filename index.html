@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Web - Gyraldine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header dengan latar biru & foto lingkaran -->
+    <header>
+        <img src="profil.jpeg" alt="Foto Profil Gyraldine" class="profile-img">
+        <h1>GYRALDINE AGUSTIWI</h1>
+        <p>H1101241017 - Mahasiswi Sistem Informasi Universitas Tanjungpura</p>
+    </header>
+
+    <!-- Navbar bergaya tab/tombol transparan -->
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#jadwal">Jadwal</a>
+        <a href="#hobi">Daftar Hobi</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <!-- Konten Utama -->
+    <main>
+        <!-- Bagian Tentang Saya -->
+        <section id="tentang" class="card">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya Gyraldine Agustiwi, mahasiswi program studi Sistem Informasi Universitas Tanjungpura. Saya merupakan seseorang yang mau belajar dan menyukai hal-hal baru yang unik.</p>
+        </section>
+
+        <!-- Bagian Jadwal Kuliah -->
+        <section id="jadwal" class="card">
+            <h2>Jadwal Kuliah</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari & Waktu</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                        <th>Ruangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin, 07:30 - 10:00</td>
+                        <td>Kepemimpinan dan Seni Komunikasi</td>
+                        <td>3</td>
+                        <td>H2.8</td>
+                    </tr>
+                    <tr>
+                        <td>Senin, 10:20 - 12:50</td>
+                        <td>Basis Data</td>
+                        <td>3</td>
+                        <td>H3.10</td>
+                    </tr>
+                    <tr>
+                        <td>Senin, 13:30 - 15:10</td>
+                        <td>Kewarganegaraan</td>
+                        <td>2</td>
+                        <td>B3.4</td>
+                    </tr>
+                    <tr>
+                        <td>Selasa, 10:20 - 13:10</td>
+                        <td>Praktikum Pemrograman Web Dasar</td>
+                        <td>1</td>
+                        <td>LAB KOM B</td>
+                    </tr>
+                    <tr>
+                        <td>Selasa, 13:30 - 15:10</td>
+                        <td>Manajemen Proyek SI</td>
+                        <td>2</td>
+                        <td>H2.10</td>
+                    </tr>
+                    <tr>
+                        <td>Rabu, 07:30 - 10:00</td>
+                        <td>Rekayasa Perangkat Lunak</td>
+                        <td>3</td>
+                        <td>H3.7</td>
+                    </tr>
+                    <tr>
+                        <td>Rabu, 13:30 - 15:10</td>
+                        <td>Pemrograman Web Dasar</td>
+                        <td>2</td>
+                        <td>H3.10</td>
+                    </tr>
+                    <tr>
+                        <td>Kamis, 10:20 - 12:00</td>
+                        <td>Pemrograman Berorientasi Objek</td>
+                        <td>2</td>
+                        <td>H2.2</td>
+                    </tr>
+                    <tr>
+                        <td>Kamis, 13:30 - 15:10</td>
+                        <td>Kewirausahaan Teknologi Informasi</td>
+                        <td>2</td>
+                        <td>H3.10</td>
+                    </tr>
+                    <tr>
+                        <td>Jumat, 07:30 - 10:00</td>
+                        <td>Manajemen Rantai Pasok</td>
+                        <td>3</td>
+                        <td>H3.4</td>
+                    </tr>
+                    <tr>
+                        <td>Jumat, 13:30 - 16:20</td>
+                        <td>Praktikum Pemrograman Berorientasi Objek</td>
+                        <td>1</td>
+                        <td>LAB KOM B</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Bagian Hobi -->
+        <section id="hobi" class="card">
+            <h2>Daftar Hobi</h2>
+            <ul class="hobi-list">
+                <li>🎧 Mendengarkan lagu-lagu Dewa 19</li>
+                <li>📖 Membaca novel favorit di waktu luang</li>
+                <li>✨ Menatap wajah Mingyu Seventeen</li>
+            </ul>
+        </section>
+
+        <!-- Bagian Kontak -->
+        <section id="kontak" class="card">
+            <h2>Kontak</h2>
+            <form action="#" method="POST">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Tulis nama Anda" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" rows="3" placeholder="Tulis pesan..."></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gyraldine Agustiwi. Dibuat dengan HTML &amp; CSS.</p>
+    </footer>
+
+</body>
+</html>
