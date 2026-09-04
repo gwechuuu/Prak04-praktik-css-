@@ -1,10 +1,10 @@
-/* Styling Utama Web Praktikum - Tema Biru Modern */
+/* Styling Utama Web Praktikum - Tema Hijau Segar */
 
 :root {
-    --biru-utama: #1e3a8a;
-    --biru-terang: #2563eb;
-    --biru-muda: #3b82f6;
-    --bg-web: #f1f5f9;
+    --hijau-utama: #2e7d32;
+    --hijau-terang: #43a047;
+    --hijau-muda: #77dd77;
+    --bg-web: #f0fff0;
     --teks: #334155;
     --border-warna: #cbd5e1;
 }
@@ -22,9 +22,9 @@ body {
     line-height: 1.6;
 }
 
-/* ===== Header (Foto Profil + Latar Biru Gradient) ===== */
+/* ===== Header (Foto Profil + Latar Hijau Gradient) ===== */
 header {
-    background: linear-gradient(135deg, var(--biru-utama), var(--biru-muda));
+    background: linear-gradient(135deg, var(--hijau-utama), var(--hijau-muda));
     color: #ffffff;
     text-align: center;
     padding: 40px 20px 25px;
@@ -52,9 +52,9 @@ header p {
     opacity: 0.9;
 }
 
-/* ===== Menu Navigasi (Sesuai Foto Teman) ===== */
+/* ===== Menu Navigasi ===== */
 nav {
-    background-color: var(--biru-terang);
+    background-color: var(--hijau-terang);
     display: flex;
     justify-content: center;
     gap: 12px;
@@ -68,7 +68,7 @@ nav a {
     font-size: 14px;
     padding: 8px 22px;
     border-radius: 6px;
-    background-color: rgba(255, 255, 255, 0.15); /* Efek tombol transparan */
+    background-color: rgba(255, 255, 255, 0.15);
     transition: all 0.3s ease;
 }
 
@@ -93,8 +93,8 @@ main {
 }
 
 .card h2 {
-    color: var(--biru-terang);
-    border-bottom: 3px solid #e0e7ff;
+    color: var(--hijau-terang);
+    border-bottom: 3px solid #e6f7e6;
     padding-bottom: 8px;
     margin-bottom: 16px;
 }
@@ -114,7 +114,7 @@ th, td {
 }
 
 th {
-    background-color: var(--biru-terang);
+    background-color: var(--hijau-terang);
     color: white;
 }
 
@@ -123,7 +123,7 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-    background-color: #e0e7ff;
+    background-color: #eafaf0;
 }
 
 /* ===== List Hobi (Zebra Striping) ===== */
@@ -141,12 +141,12 @@ tr:hover {
 
 .hobi-list li:nth-child(odd) {
     background-color: #f8fafc;
-    border-left: 4px solid var(--biru-terang);
+    border-left: 4px solid var(--hijau-terang);
 }
 
 .hobi-list li:nth-child(even) {
-    background-color: #eef2ff;
-    border-left: 4px solid var(--biru-muda);
+    background-color: #eafaf0;
+    border-left: 4px solid var(--hijau-muda);
 }
 
 /* ===== Form Kontak ===== */
@@ -171,14 +171,15 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: var(--biru-terang);
+    border-color: var(--hijau-terang);
     outline: none;
+    box-shadow: 0 0 4px rgba(119, 221, 119, 0.5);
 }
 
 button {
     margin-top: 18px;
     padding: 12px;
-    background-color: var(--biru-terang);
+    background-color: var(--hijau-terang);
     color: white;
     border: none;
     border-radius: 6px;
@@ -189,7 +190,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--biru-utama);
+    background-color: var(--hijau-utama);
     transform: scale(1.02);
 }
 
@@ -197,7 +198,7 @@ button:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background: #1e293b;
-    color: #94a3b8;
+    background: var(--hijau-utama);
+    color: #ffffff;
     font-size: 14px;
 }
